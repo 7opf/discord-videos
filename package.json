@@ -1,0 +1,20 @@
+{
+  "name": "discord-videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "start": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "js-video-url-parser": "^0.4.1"
+  }
+}
